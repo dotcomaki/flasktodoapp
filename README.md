@@ -1,44 +1,38 @@
 # Flask Todo List App
 
-## Prerequisites
+This repository contains a simple Flask todo list app.
 
-Before you begin, ensure you have the following installed:
-- Python (version 3.6 or higher)
-- pip (Python package installer)
+## Getting Started
 
-## Installation
+### Prerequisites
 
-1. **Clone the repository:**
-    ```sh
-    git clone https://github.com/dotcomaki/flasktodolist
-    cd flaskintroduction
-    ```
+Make sure you have Python and Flask installed. You can install Flask using pip:
 
-2. **Create a virtual environment:**
-    ```sh
-    python3 -m venv venv
-    ```
+```bash
+pip install Flask
+```
 
-3. **Activate the virtual environment:**
-    - On macOS/Linux:
-        ```sh
-        source venv/bin/activate
-        ```
-    - On Windows:
-        ```sh
-        venv\Scripts\activate
-        ```
+### Running the Application
 
-4. **Install Flask:**
-    ```sh
-    pip install Flask
-    ```
+To run the application, navigate to the directory containing `app.py` and execute the following command:
 
-## Setting Up Flask
+```bash
+python app.py
+```
 
-1. **Run the Flask application:**
-    ```sh
-    flask run
-    ```
+### Application Structure
 
-    You should see output indicating that the server is running, and you can visit `http://127.0.0.1:5000/` in your web browser to see the task master running.
+- `app.py`: The main file that contains the Flask application.
+
+### Usage
+
+Once the application is running, you can access it by navigating to `http://127.0.0.1:5000/` in your web browser.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Acknowledgments
+
+- Flask documentation: [Flask](https://flask.palletsprojects.com/)
+- Python documentation: [Python](https://www.python.org/doc/)
